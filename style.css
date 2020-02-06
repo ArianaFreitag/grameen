@@ -45,6 +45,7 @@ body {
 }
 
 .key {
+  z-index: 3;
   position: relative;
   width: 65px;
   left: 80%;
@@ -108,4 +109,14 @@ body {
   top: 84%;
   color: white;
   font-family:'IBM Plex Sans', sans-serif;
+}
+
+#graph {
+  position: relative;
+  top:-82%;
+  z-index: 2;
+}
+
+#gif {
+  height: 577px;
 }
