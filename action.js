@@ -2,7 +2,7 @@ function PlaySound(soundobj, num) {
     var thissound=document.getElementById(soundobj);
     thissound.play();
     var img=document.getElementById("gif");
-    img.src = "test.gif";
+    img.src = "clus_"+num+".gif";
 
     var text = document.getElementById("text_"+num);
     text.style.display="block";
