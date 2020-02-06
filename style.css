@@ -26,20 +26,21 @@ body {
 
 
 #title {
-  top: 26%;
+  top: 22%;
   left: 5%;
   position: relative;
   font-size: 30px;
   color: white;
-  font-family: 'IBM Plex Serif', serif;
+  font-family: 'IBM Plex Sans', sans-serif;
+  /* 'IBM Plex Serif', serif; */
 }
 
 #about{
   position: relative;
-  font-size: 18px;
-  width: 350px;
+  font-size: 16px;
+  width: 330px;
   left: 5%;
-  top: 22%;
+  top: 19%;
   color: white;
   font-family:'IBM Plex Sans', sans-serif;
 }
@@ -101,6 +102,61 @@ body {
 #question:hover + #methods {   display:block; }
 
 #methods {
+  display:none;
+  position: absolute;
+  font-size: 14px;
+  width: 550px;
+  left: 51%;
+  top: 84%;
+  color: white;
+  font-family:'IBM Plex Sans', sans-serif;
+}
+
+#text_1 {
+  display:none;
+  position: absolute;
+  font-size: 14px;
+  width: 550px;
+  left: 51%;
+  top: 84%;
+  color: white;
+  font-family:'IBM Plex Sans', sans-serif;
+}
+
+#text_2 {
+  display:none;
+  position: absolute;
+  font-size: 14px;
+  width: 550px;
+  left: 51%;
+  top: 84%;
+  color: white;
+  font-family:'IBM Plex Sans', sans-serif;
+}
+
+#text_3 {
+  display:none;
+  position: absolute;
+  font-size: 14px;
+  width: 550px;
+  left: 51%;
+  top: 84%;
+  color: white;
+  font-family:'IBM Plex Sans', sans-serif;
+}
+
+#text_4 {
+  display:none;
+  position: absolute;
+  font-size: 14px;
+  width: 550px;
+  left: 51%;
+  top: 84%;
+  color: white;
+  font-family:'IBM Plex Sans', sans-serif;
+}
+
+#text_5 {
   display:none;
   position: absolute;
   font-size: 14px;
