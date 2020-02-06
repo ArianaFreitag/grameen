@@ -96,7 +96,7 @@ body {
   left: 89%;
   font-size: 30px;
   color: white;
-  font-family: 'IBM Plex Serif', serif;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 #question:hover + #methods {   display:block; }
