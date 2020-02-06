@@ -18,15 +18,3 @@ function StopSound(soundobj, num) {
     var text = document.getElementById("text_"+num);
     text.style.display="none";
 }
-
-function changeImg() {
-  console.log("on")
-    var img=document.getElementById("image");
-    img.src = "beer-01.png";
-}
-
-function changeImgBack() {
-  console.log("off")
-    var img=document.getElementById("image");
-    img.src = "boot-01.png";
-}
