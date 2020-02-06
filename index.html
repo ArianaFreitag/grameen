@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grameen Bank</title>
+    <!-- import the webpage's stylesheet -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="action.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id = "sound">
+      <audio id='mySound' src='beep.wav'/>
+    </div>
+
+    <div class="flex-container">
+      <div id = "one">
+        <p id = "title"> Grameen Bank <br /> </p>
+        <p id = "about"> provides microloans to women pursuing entrepreneurial endeavors currently living below the federal poverty line. Founded in Queens in 2008, this micro-finance-nonprofit organization is based on the Nobel Prize-winning of Muhammad Yunus' Grameen Bank. <br /></p>
+      </div>
+      <div id = "two">
+        <div class = "key">
+          <div id = "clus1" onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">
+          </div>
+
+          <div id = "clus2" onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')" >
+          </div>
+
+          <div id = "clus3" onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')" >
+          </div>
+
+          <div id = "clus4" onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">
+          </div>
+          <div id = "clus5" onmouseover="PlaySound('mySound')" onmouseout="StopSound('mySound')">
+          </div>
+        </div>
+        <div id = "graph">
+        </div>
+      </div>
+    </div>
+    <div id = "question">
+      <p> ? </p>
+    </div>
+    <div id = "methods">
+      <p> The data on loan accounts from Grameen America was filtered to remove
+      non-categorical columns. One-hot encoding of the remaining categories produced a
+      sparse data set, and the dimensionality was reduced using principal component
+      analysis. The resulting data set was grouped into five data sets using k-means
+      clustering and compared to the original data for insight.
+      </p>
+    </div>
+    <!-- <div id= "title">
+      Grameen Bank <br />
+
+      <img id = "image" src="boot-01.png">
+      <!-- onmouseover="this.src='beer-01.png'" onmouseout="this.src='boot-01.png'"> -->
+    <!-- </div> -->
+
+    <!-- <div id= "about" onmouseover="changeImg()" onmouseout="changeImgBack()">
+
+    </div>
+
+    <div id = "key">
+      <div id = "clus1">
+      </div>
+
+      <div id = "clus2" >
+      </div>
+
+      <div id = "clus3" >
+      </div>
+
+      <div id = "clus4" >
+      </div>
+    </div>
+
+    <div id = "description">
+    </div> -->
+
+  </body>
+</html>
