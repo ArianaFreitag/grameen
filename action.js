@@ -2,7 +2,7 @@ function PlaySound(soundobj, num) {
     var thissound=document.getElementById(soundobj);
     thissound.play();
     var img=document.getElementById("gif");
-    img.src = "beer-01.png";
+    img.src = "test.gif";
 
     var text = document.getElementById("text_"+num);
     text.style.display="block";
@@ -13,7 +13,7 @@ function StopSound(soundobj, num) {
     thissound.pause();
     thissound.currentTime = 0;
     var img=document.getElementById("gif");
-    img.src = "test.gif";
+    img.src = "main.gif";
 
     var text = document.getElementById("text_"+num);
     text.style.display="none";
